@@ -1,5 +1,5 @@
-# gcdc-1yr-team1
-Repo for Team 1 :: Event - Google Cloud Developer Community New Delhi
+# gcdc-1yr-team7
+Repo for Team 7 :: Event - Google Cloud Developer Community New Delhi
 
 **Get started:**
  1. Fork the repo to your account
