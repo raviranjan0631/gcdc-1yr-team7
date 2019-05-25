@@ -1,9 +1,128 @@
-<!DOCTYPE html>
-<html>
-<title>Google Cloud Developer Community-New Delhi</title>
-<body>
+<!doctype html>
+<html ⚡>
+  <head>
+    <meta charset="utf-8">
+    <title>Handi Haat</title>
+    <link rel="canonical" href="pets.html">
+    <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+    <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
+    <script async src="https://cdn.ampproject.org/v0.js"></script>
+    <script async custom-element="amp-video"
+        src="https://cdn.ampproject.org/v0/amp-video-0.1.js"></script>
+    <script async custom-element="amp-story"
+        src="https://cdn.ampproject.org/v0/amp-story-1.0.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Oswald:200,300,400" rel="stylesheet">
+    <style amp-custom>
+      amp-story {
+        font-family: 'Oswald',sans-serif;
+        color: #fff;
+      }
+      amp-story-page {
+        background-color: #000;
+      }
+      h1 {
+        font-weight: bold;
+        font-size: 2.875em;
+        font-weight: normal;
+        line-height: 1.174;
+      }
+      p {
+        font-weight: normal;
+        font-size: 1.3em;
+        line-height: 1.5em;
+        color: #fff;
+      }
+      q {
+        font-weight: 300;
+        font-size: 1.1em;
+      }
+      amp-story-grid-layer.bottom {
+        align-content:end;
+      }
+      amp-story-grid-layer.noedge {
+        padding: 0px;
+      }
+      amp-story-grid-layer.center-text {
+        align-content: center;
+      }
+      .wrapper {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 50% 50%;
+      }
+      .banner-text {
+        text-align: center;
+        background-color: #000;
+        line-height: 2em;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Cover page -->
+    <amp-story standalone
+        title="Handi haat"
+        publisher="White Walkers"
+        publisher-logo-src="assets/AMP-Brand-White-Icon.svg"
+        poster-portrait-src="assets/cover.jpg">
+      <amp-story-page id="cover">
+        <amp-story-grid-layer template="fill">
+          <amp-img src="assets/11.jpg"
+              width="720" height="1280"
+              layout="responsive">
+          </amp-img>
+        </amp-story-grid-layer>
+        <amp-story-grid-layer template="vertical">
+          <h1><font color="red">Handi Haat</font></h1>
+          <p><font color="blue">By White Walkers</font></p>
+        </amp-story-grid-layer>
+      </amp-story-page>
 
-<img src="GCDC.jpg" alt="GCDC">
+      <!-- Page 1 Intro: 1 layer (vertical) -->
+      <amp-story-page id="page1">
+        <amp-story-grid-layer template="vertical">
+          <h1>Handi Haat</h1>
+          <amp-img src="assets/2.jpg"
+              width="720" height="1280"
+              layout="responsive">
+          </amp-img>
+          <q>A mobile app platform to allow villagers to sell their products across the globe</q>
+        </amp-story-grid-layer>
+      </amp-story-page>
 
-</body>
+      <!-- Page 2 (Dog): 2 layers (fill + thirds) -->
+      <amp-story-page id="page2">
+        <amp-story-grid-layer template="vertical">
+          <h1>How Handi Haat is different than a regular E-commerce app?</h1>
+          <amp-img src="assets/2.jpg"
+              width="720" height="1280"
+              layout="responsive">
+          </amp-img>
+          <q><b>Ans -</b><i>Well Handi Haat uses ML, Computer Vision, AR to full context apart from a basic Ecommerce</i></q>
+        </amp-story-grid-layer>
+      </amp-story-page>
+
+      <!-- Page 3 (AR): 3 layers (fill + vertical + vertical) + Audio-->
+      <amp-story-page id="page3">
+        <amp-story-grid-layer template="vertical">
+          <h1>How we are using Computer Vision and AR?</h1>
+          <p><b>Ans -</b><i>well with help of Computer Vision we are able to provide a virtual version reality where users are able to feel how handicrafts will be shown in their home or how a certain dress will look on</i></p>
+          </amp-img>
+        </amp-story-grid-layer>
+      </amp-story-page>
+
+
+      <!-- Page 6 (Dog): 2 layers (fill + thirds) -->
+      <amp-story-page id="page4">
+            <amp-story-grid-layer template="vertical">
+              <h1>Use of ML(Machine Learning)?</h1>
+              
+              <p><b>Ans -</b><i>We are using Machine Learning for the Item-Item recommendation and also using unspervised learning to detect the warehouse and the main hub of the market</i></p>
+            </amp-story-grid-layer>
+        </amp-story-page>
+
+
+      <!-- Bookend -->
+      <amp-story-bookend src="bookend.json" layout="nodisplay"></amp-story-bookend>
+    </amp-story>
+  </body>
 </html>

@@ -1,0 +1,99 @@
+{
+  "bookendVersion": "v1.0",
+  "shareProviders": [
+    "facebook",
+    "twitter",
+    "email"
+  ],
+  "components": [
+    {
+      "type": "heading",
+      "text": "Tech Stack"
+    },
+    {
+      "type": "small",
+      "title": "App Engine",
+      "url": "https://cloud.google.com/appengine/",
+      "image": "https://cdn-images-1.medium.com/max/1200/1*VHYGqjhONSJ20pRlIUbg7w.png"
+    },
+    {
+      "type": "small",
+      "image": "https://miro.medium.com/max/480/1*lcRm2muyWDct3FW2drmptA.png",
+      "title": "Cloud Storage",
+      "url": "https://cloud.google.com/"
+    },
+    {
+      "type": "small",
+      "title": "Cloud SQL",
+      "url": "https://cloud.google.com/",
+      "image": "https://s3-us-west-1.amazonaws.com/striim-prod-media/wp-content/uploads/2019/04/08175616/Striim_Google_SQL_big.png"
+    },
+    {
+      "type": "small",
+      "title": "Bigquery",
+      "url": "https://cloud.google.com/appengine/",
+      "image": "https://www.adviso.ca/app/uploads/2015/04/bigquery-logo1.png"
+    },
+    {
+      "type": "small",
+      "title": "Google Maps",
+      "url": "https://maps.google.com/",
+      "image": "http://pluspng.com/img-png/google-maps-png-google-maps-icon-1600.png"
+    },
+    {
+      "type": "small",
+      "title": "AutoML",
+      "url": "https://cloud.google.com/appengine/",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/6/60/Cloud-AutoML-Logo.svg"
+    },
+    {
+      "type": "small",
+      "title": "Cloud Functions",
+      "url": "https://cloud.google.com/appengine/",
+      "image": "https://s3-us-west-2.amazonaws.com/assets.blog.serverless.com/google-cloud-functions.png"
+    },
+ 
+    {
+      "type": "small",
+      "title": "Node js",
+      "url": "https://nodejs.org/en/",
+      "image": "https://d2eip9sf3oo6c2.cloudfront.net/tags/images/000/000/256/full/nodejslogo.png"
+    },
+ 
+    {
+      "type": "small",
+      "title": "Flutter",
+      "url": "https://flutter.dev/",
+      "image": "https://cdn-images-1.medium.com/max/1200/1*5-aoK8IBmXve5whBQM90GA.png"
+    },
+ 
+    {
+      "type": "small",
+      "title": "Angular js",
+      "url": "https://angular.io/",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Angular_full_color_logo.svg/1200px-Angular_full_color_logo.svg.png"
+    },
+    {
+      "type": "small",
+      "title": "Google Translate",
+      "url": "https://translate.google.com/",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Google_Translate_logo.svg/1200px-Google_Translate_logo.svg.png"
+    },
+    {
+      "type": "small",
+      "title": "Google Vision API",
+      "url": "https://cloud.google.com/",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Cloud-vision-api-Logo.svg/512px-Cloud-vision-api-Logo.svg.png"
+    },
+    {
+      "type": "cta-link",
+      "links": [
+        {
+          "text": "Learn more",
+          "url": "https://google.com"
+        }
+      ]
+    }
+  ]
+ }
+ 
